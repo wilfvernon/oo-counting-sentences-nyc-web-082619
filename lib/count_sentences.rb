@@ -2,7 +2,7 @@ require 'pry'
 class String
 
   def sentence?
-    self.last
+    self.end_with?(.)
     binding.pry
   end
 
