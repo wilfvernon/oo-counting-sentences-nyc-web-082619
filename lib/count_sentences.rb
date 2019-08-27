@@ -1,4 +1,10 @@
 require 'pry'
+class Dog
+  def woof
+    self
+    binding.pry
+  end
+end
 
 class String
 
