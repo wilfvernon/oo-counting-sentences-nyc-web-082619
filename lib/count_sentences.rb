@@ -5,7 +5,7 @@ class Dog
     binding.pry
   end
 end
-dog1 = Dog.new
+dog1 = Dog.new.woof
 
 class String
 
