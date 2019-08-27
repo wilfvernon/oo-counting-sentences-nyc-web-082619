@@ -11,7 +11,7 @@ class String
 
   def sentence?
     self
-    #binding.pry
+    binding.pry
   end
 
   def question?
