@@ -2,7 +2,7 @@ require 'pry'
 class String
 
   def sentence?
-    if self.last
+    self.last
     binding.pry
   end
 
