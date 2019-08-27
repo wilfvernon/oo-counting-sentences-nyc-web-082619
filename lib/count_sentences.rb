@@ -1,16 +1,8 @@
 require 'pry'
-class Dog
-  def woof
-    self
-    #binding.pry
-  end
-end
-dog1 = Dog.new.woof
-
 class String
 
   def sentence?
-    self
+    if self.last
     binding.pry
   end
 
